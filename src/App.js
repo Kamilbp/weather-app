@@ -1,8 +1,13 @@
+import Form from "./Components/Forms/Form";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <div className="weather-container"></div>
+      <div className="main-container">
+        <Form/>
+      </div>
+    </>
   );
 }
 
